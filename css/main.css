@@ -1,0 +1,73 @@
+body {
+    background: black;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.centerDiv {
+    text-align: center;
+    width:800px;
+    padding:10px;
+    height:50px;
+    position:absolute;
+    margin-top:-25px;
+    margin-left:-400px;
+    top:30%;
+    left:50%;
+}
+
+#headline {
+    font-size: 104px;
+    letter-spacing: 20px;
+}
+
+#punchline {
+    font-size: 32px;
+    margin: 20px;
+    font-weight: 100;
+    letter-spacing: 7px;
+    opacity: .8;
+}
+
+#logo img {
+    width: 80px;
+    margin: 20px;
+    opacity: .5;
+}
+
+#options {
+    text-align: center;
+    width: 100%;
+    clear: left;
+    margin-top: 30px;
+}
+
+#options button {
+    width: 170px;
+    font-weight: 100;
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: none;
+    color: white;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+#options button:hover {
+    background: white !important;
+    color: black;
+    cursor: pointer;
+}
+
+#options i {
+    margin-right: 5px;
+}

@@ -1,0 +1,9 @@
+dependencies:
+  pre:
+    - pip install awscli
+
+deployment:
+  development:
+    branch: master
+    commands:
+        - aws s3 sync $(pwd) s3://foregazing.com
